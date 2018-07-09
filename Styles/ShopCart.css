@@ -1,0 +1,375 @@
+﻿#ShopCart
+{    
+    background: #ffffff; 
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9990;
+    font-family: Segoe UI, Verdana;
+    display: none;
+}
+#ShopCartToolbar
+{       
+    background: url(../Images/ShopCartToolbar.png) repeat ;
+    height: 35px;
+    width: 100%; 
+    bottom: 75px;
+    left: 0px;    
+    border-bottom: 1px solid White;
+    vertical-align: middle;    
+     z-index: 9991;
+}
+input
+{   
+    border: 0px;
+    background-position: center center;    
+}
+input:hover 
+{
+    cursor: pointer;
+    border: 0px;
+    background-position: center center;
+    text-decoration: none;    
+}
+input:disable 
+{   
+    border: 0px;
+    background-position: center center;    
+}
+input#ShopCartSend1
+{       
+    background: url(../Images/shopCartSend.png) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;
+    float: left;
+    
+}
+input#ShopCartSend1:hover
+{       
+    background: url(../Images/ShopCartSend_Hover.png) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;   
+     float: left;
+     text-decoration: none;
+}
+input#ShopCartSend1:disabled
+{       
+    background: url(../Images/ShopCartSend_Disable.png) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;
+     float: left;
+	 cursor: auto;
+}
+input#ShopCartPriceQuote
+{       
+   background: url(../Images/ShopCartPriceQuote.html) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;
+    float: left;
+}
+input#ShopCartPriceQuote:hover
+{       
+   background: url(../Images/ShopCartPriceQuote_Hover.html) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;  
+     float: left;
+}
+input#ShopCartPriceQuote:disabled
+{       
+   background: url(../Images/ShopCartPriceQuote_Disable.html) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;
+    float: left;
+	 cursor: auto;
+}
+input#ShopCartAbort1
+{       
+   background: url(../Images/ShopCartAbort.png) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;
+    float: left;
+}
+input#ShopCartAbort1:hover
+{       
+   background: url(../Images/ShopCartAbort_hover.png) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;    
+    float: left;
+}
+input#ShopCartAbort1:disabled
+{       
+   background: url(../Images/ShopCartAbort_disable.png) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;
+    float: left;
+	 cursor: auto;
+}
+div#ShopCartPriceTotalC 
+{   
+    width: 250px;
+    height: 35px;
+    z-index: 9992;
+    background: url(../Images/ShopCartPriceTotal.png) no-repeat center center;   
+    float: left;
+}
+div#ShopCartPriceTotal
+{        
+   vertical-align: middle;
+   font-family: Segoe UI, Verdana;
+   font-size: 16px;
+   font-weight: bold;
+   color: #c91d67;
+   margin-right: 2px;    
+   margin-top: 6px;
+   margin-left: 110px;
+}
+div#ShopCartItemCountC 
+{
+    background: url(../Images/ShopCartItemCount.png) no-repeat center center;  
+     width: 200px;
+    height: 35px;
+    z-index: 9992;
+   float: left;  
+}
+div#ShopCartItemCount 
+{        
+   vertical-align: middle;
+   font-family: Segoe UI, Verdana;
+   font-size: 16px;
+   font-weight: bold;
+   color: #c91d67;
+   margin-top: 5px;
+   margin-left: 190px;
+}
+input#ShopCartHide
+{       
+    background: url(../Images/HideSC.png) no-repeat 0px 0px;
+    height: 35px;
+    width: 35px;   
+    bottom: 115px;
+    right: 0px;  
+    position: fixed;
+    z-index: 9992;
+}
+#ShopCartMain
+{    
+    background: White;  
+    height: 115px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    font-family: Segoe UI, Verdana;
+    color: White;
+}
+input#ShopCartBackItem
+{       
+    background: White url(../Images/BackItem.png) no-repeat center;   
+    height: 115px;
+    width: 50px;           
+    z-index: 9992;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-decoration: none;
+}
+input#ShopCartBackItem:hover
+{       
+    background: White url(../Images/BackItem.png) no-repeat center;  
+    height: 115px;
+    width: 50px;            
+    z-index: 9992;   
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-decoration: none;
+}
+input#ShopCartNextItem
+{       
+    background: White url(../Images/NextItem.png) no-repeat center;   
+    height: 115px;
+    width: 50px;                  
+    z-index: 9992;
+     position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+}
+input#ShopCartNextItem:hover
+{       
+    background: White url(../Images/NextItemH.png) no-repeat center;  
+    height: 115px;
+    width: 50px;               
+    z-index: 9992;   
+     position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+}
+div#ShopCartMainContent
+{        
+    height: 113px;
+    width: 20000em;
+    position: relative;
+    bottom: 0px;
+    left: 50px;
+    font-family: Segoe UI, Verdana;
+    color: White;
+    padding-left: 5px;
+}
+.ShopCartItemTotal
+{            
+    width: 350px;   
+    font-family: Segoe UI, Verdana;
+    color: White;
+    text-align: justify;
+    float: left;
+     padding-left: 2px;   
+     border: 1px;
+     position: relative;
+}
+.ShopCartItemTotal:hover
+{            
+    background: url(../Images/hopCartMainBgr.html) repeat ; 
+    width: 350px;   
+    font-family: Segoe UI, Verdana;
+    color: White;
+    text-align: justify;
+    float: left;
+     padding-left: 2px;   
+     border: 1px;
+     border-color: White;
+}
+.ShopCartItemL
+{            
+    width: 100px; 
+    height: 113px;
+    top: 2px;
+    font-family: Segoe UI, Verdana;
+    border:#c91d67;
+    float: left;   
+}
+.ShopCartItemImg
+{            
+    width: 95px; 
+    height: 95px;
+    top: 2px;
+    font-family: Segoe UI, Verdana;
+    border: 1px solid transparent;
+    border-color: #c91d67;
+}
+.ShopCartItemPrice
+{            
+    width: 100px; 
+    height: 17px;
+    top: 1px;
+    font-family: Tahoma;
+    font-size: 15px;
+    color: #c91d67;
+    font-style:normal;
+    font-weight: bold;
+    text-align: center;
+}
+.ShopCartItemR
+{            
+    width: 246px;   
+    height: 113px;
+    top: 2px;
+    font-family: Segoe UI, Verdana;
+    color: #dc2e87;
+    text-align: justify;
+    float: left;   
+}
+.ShopCartDeleteItem
+{              
+    background: url(../Images/close.png) no-repeat;
+    width: 25px;   
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9991;
+}
+input#ShopCartShow
+{    
+    position: fixed;
+    background: transparent url(../Images/ShowSC.png) no-repeat 0px 0px ;
+    height: 60px;
+    width: 60px;  
+    bottom: 0px;
+    top: 72%;
+    right: 5px; 
+    vertical-align: middle;   
+    display: inline;
+}
+.ShopCartAddNew 
+{
+    background: url(../Images/sss.png) no-repeat ;
+    height: 40px;
+    width: 130px;
+}
+div#ShopCartControl 
+{
+    width: 100%;
+    height: 150px;
+    background-color: Yellow;
+}
+div#ShopCartControl select
+{
+    position: absolute;
+    width: 205px;
+    font-size: 13px;
+    margin-left: 270px;
+    font-family: Segoe UI, Verdana;
+    border: 1px solid blue;    
+}
+input#ShopCartSend2
+{       
+    position: absolute;
+    background: url(../Images/ShopCartSend-2.png) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;
+    margin-top: 70px;
+    margin-left: 580px;  
+}
+input#ShopCartSend2:hover
+{       
+    position: absolute;
+    background: url(../Images/ShopCartSend_Hover.png) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;   
+   margin-top: 70px;
+    margin-left: 580px;
+    text-decoration: none;
+}
+input#ShopCartSend2:disable
+{       
+    position: absolute;
+    background: url(../Images/ShopCartSend_Disable.png) no-repeat center;   
+    height: 35px;
+    width: 111px;           
+    z-index: 9992;
+     margin-top: 70px;
+    margin-left: 580px;   
+}
+div#ShopCartControl input:focus 
+{
+    background-color: #ccffcc;
+}
+div#ShopCartControl select:focus 
+{
+    background-color: #ccffcc;
+}
